@@ -1,189 +1,308 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Martin Chagallo
+  label: "Senior Full-stack utvecklare — Högskoleingenjör inom Datateknik"
+  email: dettaminnsjag@gmail.com
+  phone: "+46 729 377 487"
+  location: Stockholm, Sweden
+  image: prof_pic.jpg
+  summary: >
+    Senior full-stack utvecklare med över 15 års erfarenhet av .NET / C# / Java
+    och cloud-native lösningar. Har levererat projekt till Saab, Ericsson och KTH
+    med fokus på nytta, skalbarhet, CI/CD och DevOps. Arbetar AI-drivet med GitHub
+    Copilot och VS Code som primära verktyg, och bygger ut med MCP-servrar och
+    externa tjänster efter behov. Undviker "vibe coding"-fällor genom spec-driven
+    utveckling med SpecKit, omfattande testning och noggrann planering.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: best-koder-ever
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: martin-albanesi-chagallo-bestkoderever
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Kungliga Tekniska Högskolan (KTH)
+        location: Stockholm, Sweden
+        area: Datateknik
+        studyType: Högskoleingenjör (Bachelor of Science in Engineering)
+        start_date: ""
+        end_date: ""
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: "Social Dating Platform (Eget projekt)"
+        position: Fullstack-utvecklare
+        location: Stockholm, Sweden
+        start_date: 2025
+        end_date: 2026
+        summary: >
+          Fullskalig mobilplattform med mikrotjänstarkitektur i .NET 8 och
+          Flutter-klient för Android/iOS. Backend består av fem tjänster (profiler,
+          matchning, meddelanden, foton, swipe) bakom en YARP API-gateway, med
+          realtidschatt via SignalR och autentisering via Keycloak. CI/CD via
+          GitHub Actions och Docker Compose.
         highlights:
-          - Relativity
-          - Description 2.
+          - "C#, .NET 8, Flutter/Dart, SignalR, Entity Framework Core, Keycloak OIDC"
+          - "MySQL, Docker Compose, YARP, REST API, GitHub Actions, Linux"
+          - "Systemöversikt: https://best-koder-ever.github.io/"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Svea Bank AB
+        position: Utvecklare
+        location: Stockholm, Sweden
+        start_date: 2025-11
+        end_date: 2026-02
+        summary: >
+          Underhåll och vidareutveckling av "Mina sidor" i bankens mobilapp.
+          Felsökning i backend-API:er, hantering av supportärenden och spårning
+          av affärsflöden i databas. Arbetade nära SQL-baserad affärslogik i en
+          reglerad bankmiljö.
         highlights:
-          - Description 1.
-          - Description 2.
+          - "C# / .NET, SQL, Azure DevOps, Windows"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: SkogForsk
+        position: Fullstack / Utvecklare
+        location: Uppsala, Sweden
+        start_date: 2024-05
+        end_date: 2024-12
+        summary: >
+          Utvecklade nya verktyg i C#/.NET för att hantera data från
+          skördemaskiner. Utvecklade ett Python-plugin för QGIS för att skapa nya
+          hydrologiska kartor till ett beslutsstöd. Allt arbete gjordes tillsammans
+          med forskare på SkogForsk. Gav tekniska utvärderingar kring teknikval och
+          satte upp resurser i Azure DevOps.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "C# / .NET, Azure DevOps, Python, ArcGIS/QGIS, Ubuntu/Windows"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: "SEB — Skandinaviska Enskilda Banken AB"
+        position: Utvecklare
+        location: Stockholm, Sweden
+        start_date: 2024-01
+        end_date: 2024-05
+        summary: >
+          Byggde upp ett API i C#/.NET för att hantera olika säkerhetstyper som
+          används vid belåning. API:et gjordes generellt och frikopplat för att
+          kunna återanvändas för andra säkerhetstyper.
+        highlights:
+          - "C# / .NET Core, Swagger API, MediatR, Fluent Validations"
+          - "API versioning, xUnit enhets-/integrationstestning, Git / GitHub"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Jensen Education School AB
+        position: "Lärare — AWS DevOps / Cloud Utveckling"
+        location: Kista, Stockholm
+        start_date: 2023-09
+        end_date: 2023-09
+        summary: >
+          Ledde kursen på plats i Kista samt över Zoom. Tog fram studiematerial,
+          skapade tentamen och projektuppgift, hjälpte studenter med praktiska
+          problem. Kursen innehöll Observability med OpenTelemetry och AWS X-Ray.
+        highlights:
+          - "AWS SWF, AWS CodeCommit, AWS CodeDeploy, AWS CodePipeline"
+          - "OpenTelemetry / AWS X-Ray, CI/CD"
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - company: "KTH — Kungliga Tekniska Högskolan"
+        position: Research Software Developer
+        location: Stockholm, Sweden
+        start_date: 2018
+        end_date: 2021
+        summary: >
+          Arbetade med professorer på KTH för att skapa samarbeten mellan KTH och
+          industrin. Integrerade programvara och forskningsresultat för att skapa en
+          sluten CI-loop baserad på DevOps-principer. Visualiserade data via grafer
+          i samarbete med en visualiseringsexpert. Satt sista året på Saab och
+          utvecklade ett verktyg för integratörerna.
+        highlights:
+          - "DevOps, Visualisering, Node.js, React, JavaScript, D3.js, MongoDB"
+          - "PIT-Test-Descartes, Maven"
+          - "Intervjuade Saab-integratörer och utvecklade grafiska prototyper/dashboard"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - company: Cloud Republic AB
+        position: Front-end utvecklare
+        location: Stockholm, Sweden
+        start_date: 2017
+        end_date: 2017
+        summary: >
+          Genererade en dynamisk rapport med diverse graftyper från en datamängd
+          baserat på ett digitaliseringsindex. Skapade generella metoder så att
+          flera graftyper kunde skapas från samma datamängd.
+        highlights:
+          - "Google Charts API, JavaScript, PHP, Git"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - company: Just Update AB
+        position: "Eget Startup — Utvecklare & medgrundare"
+        location: Stockholm, Sweden
+        start_date: 2015
+        end_date: 2017
+        summary: >
+          Startade tillsammans med två kompanjoner ett bolag för att marknadsföra
+          och utveckla tjänster för restaurangbranschen. Skapade webbplatser och
+          verktyg för Facebook och sociala medier.
+        highlights:
+          - "Wordpress, PHP, JavaScript"
+
+      - company: HiQ
+        position: "Konsult — Full-stack utvecklare"
+        location: Stockholm, Sweden
+        start_date: 2011
+        end_date: 2014
+        summary: >
+          Arbetade som konsult på HiQ med flera uppdrag på Ericsson, NCC, D-Safety,
+          Flir Systems och Locus Skandinavia.
+        highlights:
+          - "Android, Java, C#, JavaScript, Perl, PHP"
+          - "Jenkins/Hudson, Eclipse, Linux, Scrum, Git, SVN"
+
+      - company: "Ericsson AB (via HiQ)"
+        position: Utvecklare
+        location: Stockholm, Sweden
+        start_date: 2014
+        end_date: 2014
+        summary: >
+          Åtgärdade prestandaproblem i Android-app. Ersatte föråldrad Google Maps
+          API med nyare version och implementerade klustersystem för kartmarkörer.
+          Utvärderade cache-lösningar (Memcache, Facebook HipHop) för storskaliga
+          serveranrop.
+        highlights:
+          - "Android, Eclipse, Maven, Java, Google Maps API"
+          - "PHP, Java, Perl, Memcached, Redis, Facebook HipHop"
+
+      - company: "Ericsson AB (via HiQ)"
+        position: Utvecklare — Testmiljö & Jenkins-plugin
+        location: Stockholm, Sweden
+        start_date: 2012
+        end_date: 2013
+        summary: >
+          Satte upp ny test- och byggmiljö med Jenkins. Utvecklade ett Jenkins
+          plugin i Java för att underlätta konfigurering vid testning.
+        highlights:
+          - "Java, JavaScript, Jelly, HTML, Jenkins/Hudson, Maven, ClearCase, Linux"
+
+      - company: "Ericsson AB (via HiQ)"
+        position: Utvecklare
+        location: Stockholm, Sweden
+        start_date: 2011
+        end_date: 2012
+        summary: >
+          Omdesignade och konverterade ett testprogram från C-shell till Perl med
+          modernare design. Arbetet styrdes med Scrum.
+        highlights:
+          - "Perl, C-shell, XML/XPath, Eclipse, Scrum, ClearCase, Linux"
+
+      - company: "NCC AB (via HiQ)"
+        position: Front-end utvecklare
+        location: Stockholm, Sweden
+        start_date: 2013
+        end_date: 2013
+        summary: >
+          Slutförde en nyutvecklad intern webbsida inför intern granskning.
+        highlights:
+          - "SASS/CSS, Jade/HTML, jQuery, Trello, Git, Firebug, Eclipse"
+
+      - company: "D-Safety AB (via HiQ)"
+        position: Back-end utvecklare
+        location: Stockholm, Sweden
+        start_date: 2013
+        end_date: 2013
+        summary: >
+          Skapade dokumentation och verktyg för att uppdatera kunddatabas och
+          lägga till nya larmcentraler i en webbapplikation.
+        highlights:
+          - "C# / .NET, SQL, HTML, Android, Visual Studio, MySQL"
+
+      - company: "Flir Systems (via HiQ)"
+        position: Front-end utvecklare
+        location: Stockholm, Sweden
+        start_date: 2012
+        end_date: 2012
+        summary: >
+          Åtgärdade AJAX-timing-problem på en intranätsida. Lade till jQuery-
+          komponenter för att förbättra sidan.
+        highlights:
+          - "JavaScript, AJAX, ASP, HTML, CSS, Eclipse, Firebug"
+
+      - company: "Motorola / Google / A1 Telekom Austria / Ericsson (via HiQ)"
+        position: Back-end utvecklare
+        location: Stockholm, Sweden
+        start_date: 2012
+        end_date: 2012
+        summary: >
+          Förbättrade kod i en digitalbox med inbyggd IPTV-portal inför lansering.
+          Reste till Ericsson i Indien för att utbilda nytt team. Portalen
+          lanserades framgångsrikt i Österrike.
+        highlights:
+          - "JavaScript, JSON, XML, IPTV, Eclipse, Firebug, Linux"
+          - "Jira, Kanban, SVN, Apache, Jenkins"
+
+      - company: "Locus Skandinavia AB (via HiQ)"
+        position: Full-stack Utvecklare
+        location: Stockholm, Sweden
+        start_date: 2012
+        end_date: 2012
+        summary: >
+          Vidareutvecklade webbsystem och utvecklade Android-app från grunden med
+          streckkods-/QR-scanning och digital signering.
+        highlights:
+          - "JavaScript, Java, C#, Android, JSON, XML, Visual Studio, Eclipse"
+
+      - company: Wiseone AB
+        position: Examensarbete
+        location: Stockholm, Sweden
+        start_date: 2010
+        end_date: 2010
+        summary: >
+          Studerade och utvärderade ramverk för layout på WiseOnes webbportal.
+        highlights:
+          - "Java, Java Servlet Faces, RichFaces, ActionScript, HTML, CSS, XML, Eclipse, Linux"
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: "Full-stack utveckling"
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "C#, .NET Core, Java, JavaScript, Node.js, Express.js, Flutter, Android"
+
+      - name: "Cloud & DevOps"
+        level: Advanced
+        icon: fa-solid fa-cloud
+        keywords: "AWS, Azure, Docker, Kubernetes, CI/CD, GitHub Actions, OpenTelemetry, Observability"
+
+      - name: "AI & Maskininlärning"
+        level: Advanced
+        icon: fa-solid fa-robot
+        keywords: "GitHub Copilot, VS Code AI, Python, MCP-integration, Spec-driven utveckling, Autonoma arbetsflöden"
+
+      - name: Databaser
+        level: Advanced
+        icon: fa-solid fa-database
+        keywords: "SQL, MySQL, MongoDB, Mongoose, Redis"
+
+      - name: "Verktyg & miljöer"
+        level: Advanced
+        icon: fa-solid fa-tools
+        keywords: "Git, Jenkins, Maven, VS Code, Visual Studio, IntelliJ, Eclipse, VIM, Linux, Windows"
+
+      - name: Metodik
+        level: Expert
+        icon: fa-solid fa-users
+        keywords: "Scrum, Agil utveckling, CI/CD, DevOps"
+
+      - name: "Tidigare erfarenhet"
+        level: Intermediate
+        icon: fa-solid fa-history
+        keywords: "PHP, Perl, C++, Assembler, WordPress"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Svenska
+        summary: "Flytande — modersmål"
 
-      - name: English
-        summary: "Fluent"
+      - name: Spanska
+        summary: "Flytande i tal och skrift"
+
+      - name: Engelska
+        summary: "Flytande i tal och skrift"
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Familj
+        icon: fa-solid fa-heart
+        keywords: "Pappa till två barn"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Hälsa
+        icon: fa-solid fa-dumbbell
+        keywords: "Tränar regelbundet för att hålla mig frisk och må bra"
